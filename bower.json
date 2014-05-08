@@ -1,0 +1,21 @@
+{
+  "name": "angular-module-shim",
+  "main": "index.js",
+  "version": "0.1.0",
+  "authors": [
+    "@dvemac"
+  ],
+  "description": "A better angular.module() method",
+  "keywords": [
+    "angular",
+    "module"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
