@@ -5,7 +5,7 @@
 
   function appendDeps(name, deps) {
     var m = originalModule(name);
-    Array.prototype.push.apply((m.requires || (m.requires = [])), deps);
+    Array.prototype.push.apply(m.requires, deps);
     return m;
   }
 
