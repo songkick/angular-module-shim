@@ -27,6 +27,7 @@ angular.module('myModule', ['dep2']);
 ####Build
 
 ```
+npm install		# install dependencies
 make build      # build lib
 make test       # run unit tests
 ```
